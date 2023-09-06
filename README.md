@@ -38,6 +38,20 @@ Puedes utilizar este proyecto como base para trabajar con arrays ordenados en tu
 
 Para compilar el proyecto, puedes utilizar un compilador de C++ estándar. Asegúrate de que `main.cpp` incluye el archivo de cabecera `SortedArray.hpp` y que los archivos de código fuente se compilan junto con tu aplicación.
 
+## Ejemplos de comandos para compilar el proyecto usando MinGW
+Compilación normal.
+```bash
+g++ main.cpp ./lib/SortedArray.cpp -o ./bin/runnable
+```
+Modo de depuración.
+```bash
+g++ -std=c++11 -g main.cpp ./lib/SortedArray.cpp -o ./bin/runnable
+```
+Activando advertencias.
+```bash
+g++ -std=c++11 -Wall -Wextra main.cpp ./lib/SortedArray.cpp -o ./bin/runnable
+```
+
 ## Ejemplo de Uso Básico
 
 ```cpp
